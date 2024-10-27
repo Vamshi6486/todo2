@@ -1,38 +1,98 @@
-.App {
+.ento{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.bodyi{
+  
+  max-width: 1200px;
+  min-width:800px;
+  
+  
+  
+}
+.headu{
   text-align: center;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.entrybar{
+  margin:20px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.entry-inner{
+  padding:20px;
+  border-radius: 15px;
+  height:40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: rgba(220, 217, 217, 0.466);
+  
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.box1{
+  height:40px;
+  border-radius: 10px;
+  text-align:center ;
+  font-size: large;
+  
+}
+.box2{
+  height:40px;
+  border-radius: 10px;
+  width:300px;
+  text-align:center ;
+  font-size: large;
+}
+.box3{
+  height:40px;
+  border-radius: 10px;
+  width:100px;
+  text-align:center ;
+  color: aliceblue;
+  background-color: rgb(6, 110, 100);
+}
+.items{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-evenly;
+  padding:20px;
+  padding-bottom: 10px;
+  height:170px;
+  width:200px;
+  border-radius: 10px;
+  border:3px solid rgb(6, 110, 100);
 }
-
-.App-link {
-  color: #61dafb;
+.title {
+  
+  height:40px;
+  padding:5px;
 }
+.descrip{
+  height:40px;
+  padding:5px;
+  font-size: large;
+}
+.buttons{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding:10px;
+}
+.done{
+  height:40px;
+  width:70px;
+  border-radius: 5px;
+  border:2px solid rgb(0, 0, 0);
+}
+.delete{
+  height:40px;
+  width:70px;
+  border-radius: 5px;
+  border:2px solid rgb(0, 0, 0);
+}
+.done:hover{
+  background-color: rgb(21, 188, 99);
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.delete:hover{
+  background-color: rgb(209, 46, 10);
+
 }
